@@ -16,13 +16,13 @@
 
 编译工具： IDEA  或 VScode
 
-下载安装 node.js  14.15.0    官网 https://nodejs.org/en/
+下载安装 node.js   版本14.15.0    官网 https://nodejs.org/en/
 
-安装好后命令行查看版本： node -v     
+安装好后命令行查看版本：      node -v     
 
-命令行查看npm    npm  -v
+命令行查看npm:              npm  -v
 
-搭建vue-cli3脚手架     npm install vue/cli@3.0  -g 
+搭建vue-cli3脚手架:     npm install vue/cli@3.0  -g 
 
 -g 表示全局安装  
 
@@ -32,7 +32,7 @@
 
 vue ui     可视化界面vue 项目管理平台
 
-命令行创建vue项目       vue  create  项目名
+命令行创建vue项目：         vue  create  项目名
 
 ### 首页
 
