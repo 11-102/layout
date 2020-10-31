@@ -36,7 +36,7 @@ vue ui     可视化界面vue 项目管理平台
 
 ### 首页
 
-​            ![img](https://docimg5.docs.qq.com/image/BQnxphWMufiiS8Ff1QCV_A?w=1030&h=443)            
+![img](https://docimg5.docs.qq.com/image/BQnxphWMufiiS8Ff1QCV_A?w=1030&h=443)            
 
 知乎——发现布局![img](https://docimg7.docs.qq.com/image/pS0n-XKKC2mTtN2digxCTw?w=1110&h=593)            
 
