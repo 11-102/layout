@@ -36,9 +36,9 @@ vue ui     可视化界面vue 项目管理平台
 
 ### 首页
 
-![image-20201031174248840](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201031174248840.png)
+首页布局           ![img](https://docimg7.docs.qq.com/image/tLGkT-7BKdyQLN6rcnXm3g?w=989&h=452)            
 
-知乎——发现布局![img](https://docimg7.docs.qq.com/image/pS0n-XKKC2mTtN2digxCTw?w=1110&h=593)            
+知乎——发现布局![img](https://docimg7.docs.qq.com/image/pS0n-XKKC2mTtN2digxCTw?w=1110&h=593)                   
 
 ## 后端
 
