@@ -5,7 +5,7 @@
 后端仓库：https://github.com/11-102/backend
 
 上传到仓库 put  
-如:  put  https://github.com/11-102/layout/git
+如:  push  https://github.com/11-102/layout/git
 
 从仓库拉下来 pull 
 如:  pull  https://github.com/11-102/layout/git
