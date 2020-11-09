@@ -22,4 +22,7 @@
 
 3.vue_college_study项目已安装Ajax封装组件axios
 
+**最新进度：**
+
+4.vue_college_study项目才弄到导航栏    布局   js  css 不怎么样
 
