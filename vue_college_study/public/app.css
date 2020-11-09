@@ -1,0 +1,48 @@
+*{
+    margin: 0
+}
+/* 头部 */
+.box{
+   width: 100%;
+   height: 100%;
+}
+.container{
+    width: 100%;
+    height: 80%;  
+    background-color:red;
+}
+/* 导航栏 */
+.topnav{
+    width: 100%;
+    height: 20%;
+    background-color:#377dff;
+    padding: 20px
+}
+.home{
+    text-decoration: none;     /* 不显示下划线 */
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 15px 10px 0px;
+}
+.explore{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 15px 10px 0px;
+}
+.login{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 15px 10px 0px;
+}
+.register{
+    padding: 10px 15px 10px 0px;
+}
+
+.el-dropdown-link {
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 15px 10px 0px; 
+  }
