@@ -34,11 +34,7 @@ vue ui     可视化界面vue 项目管理平台
 
 命令行创建vue项目：         vue  create  项目名
 
-### 首页
-
-首页布局           ![img](https://docimg7.docs.qq.com/image/tLGkT-7BKdyQLN6rcnXm3g?w=989&h=452)            
-
-知乎——发现布局![img](https://docimg7.docs.qq.com/image/pS0n-XKKC2mTtN2digxCTw?w=1110&h=593)                   
+### 首页    
 
 ## 后端
 
