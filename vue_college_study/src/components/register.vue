@@ -1,5 +1,5 @@
 <template>
-    <el-form :model="form" label-width="100px">
+    <el-form :model="form" label-width="100px" class="register_vue">
           <el-form-item label="你的用户名">
               <el-input  v-model="form.name" placeholder="请输入用户名"></el-input>    <!-- v-model双向绑定 -->
           </el-form-item>

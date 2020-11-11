@@ -24,14 +24,15 @@ module.exports = {
       // 配置开发环境下的一些服务器配置
       devServer: {
         open: true,
-        proxy: {
-          // 配置代理
-          '/api': {
-            target: 'http://localhost:8080',
-            pathRewrite: {
-              '^/api': ""
-            }
-          }
-        }
+        port: 3000,
+    //     proxy: {
+    //       // 配置代理
+    //       '/api': {
+    //         target: 'http://localhost:8080',
+    //         pathRewrite: {
+    //           '^/api': ""
+    //         }
+    //       }
+    //     }
       }
     }

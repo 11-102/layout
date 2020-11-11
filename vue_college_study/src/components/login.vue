@@ -1,5 +1,5 @@
 <template>
-    <el-form label-width="100px">
+    <el-form label-width="100px" class="login_vue">
           <el-form-item label="你的邮箱地址">
               <el-input v-model="form.email" placeholder="name@example.com"></el-input>    <!-- v-model="form.name" -->
           </el-form-item>

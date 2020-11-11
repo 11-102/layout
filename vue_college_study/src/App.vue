@@ -1,36 +1,44 @@
+<style src="../public/app.css"></style>
+<style src="../public/css/components.css"></style>
 <template>
-  <div class="box">
-      <div class="container">
-      <div class="topnav">
-      <!-- <el-button type="primary" icon="el-icon-menu" @click="toMore" circle></el-button> -->
-      <el-dropdown>
-            <span class="el-dropdown-link">更多<i class=""></i>
-            </span>
-          <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item icon="el-icon-plus">黄金糕</el-dropdown-item>
-            <el-dropdown-item icon="el-icon-circle-plus">狮子头</el-dropdown-item>
-            <el-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</el-dropdown-item>
-            <el-dropdown-item icon="el-icon-check">双皮奶</el-dropdown-item>
-            <el-dropdown-item icon="el-icon-circle-check">蚵仔煎</el-dropdown-item>
-          </el-dropdown-menu>
-      </el-dropdown>
-      <router-link to="/home" class="home">首页</router-link>
-      <router-link to="/find" class="explore">发现</router-link>
-      <router-link to="/login" class="login">登录</router-link>
-      <el-button type="primary" class="register" @click="toRegist">注册加入</el-button>
-      <router-view></router-view>
-      <!-- <el-tabs v-model="activeName" @tab-click="handleClick">
+  <div class="flexb">
+      <div class="header">
+        <!-- <el-button type="primary" icon="el-icon-menu" @click="toMore" circle></el-button> -->
+        <div class="tabs_1" style="background-color: aqua;"><p>Logo</p></div>
+        <router-link to="/home" class="tabs_2">首页</router-link>
+        <router-link to="/find" class="tabs_3">发现</router-link>
+        <!-- <div class="tabs_4"><p>搜索框</p></div> -->
+        <!-- <el-select v-model="value" placeholder="请选择">
+    <el-option
+      v-for="item in options"
+      :key="item.value"
+      :label="item.label"
+      :value="item.value">
+    </el-option>
+  </el-select> -->
+        <el-input placeholder="请输入搜索内容" class="tabs_4"></el-input>
+        <el-button type="primary" plain><router-link to="/login" class="tabs_5">登录</router-link></el-button>
+        <el-button type="primary" class="tabs_6" @click="toRegist">注册加入</el-button>
+        <router-view></router-view>
+        <!-- <el-tabs v-model="activeName" @tab-click="handleClick">
         <el-tab-pane label="首页" name="first"></el-tab-pane>
         <el-tab-pane label="发现" name="second"></el-tab-pane>
-      </el-tabs> -->
+        </el-tabs> -->
       </div>
+      <div class="main">
+                <div class="left"></div>
+                <div class="center"></div>   <!--  style="background-color: royalblue" -->
+                <div class="right"></div>
+      </div>
+      <div class="footer">
+        <div class=""></div>
       </div>
   </div>
 </template>
 
 <script>
-import '../public/app.css'      
-// import '../public/css/search.css' 
+// import '../public/app.css'      
+
 export default {
   name: 'app',
   methods: {
@@ -38,6 +46,6 @@ export default {
       this.$router.push('/regist').catch(err => err)     //    catch  定位到当前导航不报错 
     },
   }
-}
+  }
 </script>
 

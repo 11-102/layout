@@ -1,0 +1,57 @@
+.find_vue{
+    padding: 0;
+    margin:200px 0px 0px 0px;
+    position: absolute;
+}
+.home_vue{
+    padding: 0;
+    margin:200px 0px 0px 0px;
+    position: absolute;
+}
+.tabs_4{
+    margin:0 0 0 150px;
+    padding: 0;
+    font-size: 20px;
+    z-index: -2;
+}
+.login_vue{
+    padding: 0;
+    width: 550px;
+    height: 250px;
+    margin:200px 0px 0px 0px;
+    position: absolute;
+    background-color: blueviolet;
+}
+.register_vue{
+    padding: 0;
+    width: 550px;
+    height: 250px;
+    margin:200px 0px 0px 0px;
+    position: absolute;
+    background-color: blueviolet;
+}
+/* 输入框宽度高度 */
+.tabs_4.el-input {
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    width: 270px;
+}
+/* 输入框里面的宽度高度 */
+input.el-input__inner {
+    width: 270px;
+    height: 35px;
+}
+/* 登录按钮 */
+button.el-button.el-button--primary.is-plain {
+    width: 100px;
+    height: 40px;
+    padding:0;
+    margin:0;
+}
+/* 注册加入按钮 */
+button.el-button.tabs_6.el-button--primary {
+    width: 100px;
+    height: 40px;
+    margin:0;
+}

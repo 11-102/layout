@@ -1,4 +1,4 @@
-<template><div>
+<template><div class="home_vue">
     <h2>首页组件</h2>
     <p>首页内容</p>
   </div>
