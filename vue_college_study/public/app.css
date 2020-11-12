@@ -13,6 +13,7 @@ body{
 .header{
     justify-content: space-around;
     position: relative;
+    width: 1400px;
 }
 .header div{
     text-align: center;

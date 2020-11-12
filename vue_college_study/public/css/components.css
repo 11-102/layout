@@ -35,11 +35,11 @@
     padding: 0;
     margin: 0;
     height: 35px;
-    width: 270px;
+    width: 320px;
 }
 /* 输入框里面的宽度高度 */
 input.el-input__inner {
-    width: 270px;
+    width: 320px;
     height: 35px;
 }
 /* 登录按钮 */
@@ -54,4 +54,5 @@ button.el-button.tabs_6.el-button--primary {
     width: 100px;
     height: 40px;
     margin:0;
+    font-size: 17px;
 }
