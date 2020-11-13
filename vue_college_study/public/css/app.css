@@ -3,7 +3,7 @@
     padding: 0;
 }
 .box{
-    width: 1360px;
+    width: 1350px;
     height: 600px;
     background: #f6f6f6;
 }
@@ -11,7 +11,7 @@
                         ========= */
 .header{
     width: 100%;
-    height: 100px;
+    height: 9%;
 }
 .tabs_2{
     font-size: 20px;
@@ -46,7 +46,7 @@ a.tabs_3.router-link-exact-active.router-link-active{
     width: 320px;
 }
 input.el-input__inner {   /* 输入框里面的宽度高度 */
-    height: 60%;
+    height: 100%;
     width: 320px;
 }
 .tabs_5{          
@@ -79,7 +79,7 @@ button.el-button.tabs_6.el-button--primary {   /*  注册加入按钮 */
                     ========= */
 .box .main{
     width: 100%;
-    height: 80%;
+    height: 81%;
     display: flex;
 }
 .box .main .left{
@@ -94,7 +94,26 @@ button.el-button.tabs_6.el-button--primary {   /*  注册加入按钮 */
 /* =======  底部  
                     ========= */
 .box .footer{    
-    height: 20%;
+    height: 10%;
     width: 100%;    
     text-align: center;
+    display: flex;
 }
+.box .footer .fooA{
+    flex: 9;
+    background-color: rebeccapurple;
+}
+/* =======  返回顶部   ========= */
+.box .footer .fooB{
+    flex: 1;
+    background-color: #f2f5f6;
+    text-align: center;
+    z-index: 99;
+}
+.box .footer .fooB i{
+    color: #409eff;
+    display: block;
+    line-height: inherit;
+    text-align: center;
+    font-size: 18px;
+} 

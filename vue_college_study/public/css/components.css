@@ -1,21 +1,22 @@
 /* =======  发现组件 
                         ========= */
 .find_vue{
-    padding: 0 ;
-    width: 100px;
-    margin:0;
+    padding: 0;
+    margin-top: 5px;
+    background: blue;
 }
 /* =======  首页组件  
                         ========= */
 .home_vue{
     padding: 0;
-    margin:0;
+    margin-top: 5px;
+    background: red;
 }
 /* =======  登录组件  
                         ========= */
 .login_vue{
     padding: 0;
-    margin:0;
+    margin-top: 5px;
     width: 550px;
     height: 250px;
     background-color: #ff66ff;
@@ -24,8 +25,9 @@
                         ========= */
 .register_vue{
     padding: 0;
-    margin:0;
+    margin-top: 5px;
     width: 550px;
     height: 250px;
     background-color:  #ff66ff;
+
 }

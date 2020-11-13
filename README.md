@@ -22,8 +22,8 @@
 
 3.vue_college_study项目已安装Ajax封装组件axios
 
-**最新进度：2020.11.12_12:52**  
+**最新进度：2020.11.14_**  
 
-4.vue_college_study项目修正了一些布局 
-兼容了手机端
+4.vue_college_study项目 css布局完成  兼容了手机端  
+5.vue_college_study项目 底部 新增返回到顶部功能 (抄的)
 

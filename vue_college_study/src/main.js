@@ -6,6 +6,7 @@ import router from './router/router'
 //  引入 Vuex 存储管理  组件内容共享  共享头像 token  ....
 import store from './store/store'
 
+
 Vue.config.productionTip = false
 
 new Vue({
