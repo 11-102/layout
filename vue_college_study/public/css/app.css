@@ -1,0 +1,100 @@
+*{          /*  所有元素去掉内外边距 */
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1360px;
+    height: 600px;
+    background: #f6f6f6;
+}
+/* =======  头部导航栏  
+                        ========= */
+.header{
+    width: 100%;
+    height: 100px;
+}
+.tabs_2{
+    font-size: 20px;
+    text-decoration: none;     /* 去除下划线 */ 
+    padding:0;
+    color: gray;    /* 未点击的颜色 */ 
+    margin-left:150px;
+}      
+a.tabs_2.router-link-exact-active.router-link-active{   /* 点击按钮后 */
+    font-size: 20px;
+    text-decoration: none;        /* 去除下划线 */ 
+    color: rebeccapurple;
+}
+a.tabs_3 {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 100;
+    color: gray;
+    margin-left:150px;
+}
+a.tabs_3.router-link-exact-active.router-link-active{
+    font-size: 20px;
+    text-decoration: none;        /* 去除下划线 */ 
+    color: rebeccapurple;
+}
+.tabs_4{
+    font-size: 20px;
+    margin-left:150px;
+}  
+.tabs_4.el-input {   /* 输入框宽度高度 */
+    height: 60%;
+    width: 320px;
+}
+input.el-input__inner {   /* 输入框里面的宽度高度 */
+    height: 60%;
+    width: 320px;
+}
+.tabs_5{          
+    padding: 0;
+    margin:0;
+    font-size: 20px;
+    text-decoration: none;  
+    color: gray;
+    width: 82px;
+    height: 46px;
+}
+a.tabs_5.router-link-exact-active.router-link-active { 
+    padding: 0;
+    margin:0;
+    font-size: 20px;
+    text-decoration: none;  
+    color: red;
+}
+button.el-button.el-button--primary.is-plain {
+    margin-left: 145px;
+}
+button.el-button.tabs_6.el-button--primary {   /*  注册加入按钮 */
+    padding: 0;
+    width: 82px;
+    height: 46px;
+    font-size: 17px;
+    margin-left:145px;
+}
+/* =======  中间主体  
+                    ========= */
+.box .main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.box .main .left{
+    flex: 1;
+}
+.box .main .center{
+    flex: 8;
+}
+.box .main .right{
+    flex: 1;
+}
+/* =======  底部  
+                    ========= */
+.box .footer{    
+    height: 20%;
+    width: 100%;    
+    text-align: center;
+}

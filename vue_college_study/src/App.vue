@@ -1,10 +1,11 @@
-<style src="../public/app.css"></style>
+<style src="../public/css/app.css"></style>
 <style src="../public/css/components.css"></style>
 <template>
   <div class="box">
       <div class="header">
         <!-- <el-button type="primary" icon="el-icon-menu" @click="toMore" circle></el-button> -->
              <!-- <img src="../public/Gzlg.jpg">  -->
+
         <router-link to="/home" class="tabs_2">首页</router-link>
         <router-link to="/find" class="tabs_3">发现</router-link>
         <!-- <div class="tabs_4"><p>搜索框</p></div> -->
