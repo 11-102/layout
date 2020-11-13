@@ -1,32 +1,24 @@
 .find_vue{
     padding: 0;
-    margin:200px 0px 0px 0px;
-    position: absolute;
+    margin:0;
 }
 .home_vue{
     padding: 0;
-    margin:200px 0px 0px 0px;
-    position: absolute;
-}
-.tabs_4{
-    margin:0 0 0 150px;
-    padding: 0;
-    font-size: 20px;
-    z-index: -2;
+    margin:0;
 }
 .login_vue{
     padding: 0;
+    margin:0;
     width: 550px;
     height: 250px;
-    margin:200px 0px 0px 0px;
     position: absolute;
     background-color: blueviolet;
 }
 .register_vue{
     padding: 0;
+    margin:0;
     width: 550px;
     height: 250px;
-    margin:200px 0px 0px 0px;
     position: absolute;
     background-color: blueviolet;
 }

@@ -1,10 +1,10 @@
 <style src="../public/app.css"></style>
 <style src="../public/css/components.css"></style>
 <template>
-  <div class="flexb">
+  <div class="box">
       <div class="header">
         <!-- <el-button type="primary" icon="el-icon-menu" @click="toMore" circle></el-button> -->
-        <div class="tabs_1" style="background-color: aqua;"><p>Logo</p></div>
+             <!-- <img src="../public/Gzlg.jpg">  -->
         <router-link to="/home" class="tabs_2">首页</router-link>
         <router-link to="/find" class="tabs_3">发现</router-link>
         <!-- <div class="tabs_4"><p>搜索框</p></div> -->

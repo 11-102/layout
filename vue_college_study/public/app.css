@@ -1,4 +1,3 @@
-/*  flex布局  */
 *{
     margin: 0;
     padding: 0;
@@ -6,60 +5,76 @@
 body{
    background: #f6f6f6;
 }
-.flexb .header{
-    display: flex;
-    height: 100px;
+.box{
+    width: 600px;
+    height: 500px;
 }
-.header{
-    justify-content: space-around;
-    position: relative;
-    width: 1400px;
+.box .header{
+    width: 100%;
+    height: 20%;
 }
-.header div{
-    text-align: center;
-}
-.main{
-    display: flex;
-    height: 100px;
-}
-.left,.right{
-    flex:1 ;
-    position: relative;
-    align-items: stretch;
-    min-height: 500px;
-}
-.center{
-    flex:13;
-} 
-/* footer移动到最底下   left: 0;  bottom: 0; */
-.footer{      
-    display: flex;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;    
-    align-self: flex-end; 
-    text-align: center;
-}
-.tabs_1{
-    font-size:20px;
-    width:100px;
-}
-.tabs_2,a.tabs_2.router-link-exact-active.router-link-active {
+.tabs_2{
+    font-size: 20px;
+    text-decoration: none;     /* 去除下划线 */ 
+    padding:0;
+    width: 100px;
+    color: gray;    /* 未点击的颜色 */ 
+}      
+/* 点击按钮后 */
+a.tabs_2.router-link-exact-active.router-link-active{
     font-size: 20px;
     text-decoration: none;        /* 去除下划线 */ 
     padding:0;
     width: 100px;
+    color: rebeccapurple;
 }
 a.tabs_3 {
     font-size: 20px;
     text-decoration: none;
     padding:0;
     width: 100px;
+    color: gray;
 }
-.tabs_5,a.tabs_5.router-link-exact-active.router-link-active {
+a.tabs_3.router-link-exact-active.router-link-active{
+    font-size: 20px;
+    text-decoration: none;        /* 去除下划线 */ 
+    padding:0;
+    width: 100px;
+    color: rebeccapurple;
+}
+.tabs_4{
+    padding: 0;
+    margin:0;
+    font-size: 20px;
+}  
+.tabs_5{
     font-size: 20px;
     text-decoration: none;  
     padding:0;
     width: 100px;
+    color: gray;
+}
+a.tabs_5.router-link-exact-active.router-link-active {
+    font-size: 20px;
+    text-decoration: none;  
+    padding:0;
+    width: 100px;
+    color: rebeccapurple;
+}
+.box .main{
+    width: 100%;
+    height: 60%;
+}
+.main .left,.main .right{
+    width: 20%;
+    height: 100%;
+}
+.main .center{
+    width: 60%;
+    height: 100%;
+}
+.box .footer{      
+    height: 20%;
+    width: 100%;    
+    text-align: center;
 }
