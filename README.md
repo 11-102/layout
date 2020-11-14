@@ -6,7 +6,7 @@
 
 2.vue_college_study已使用国内淘宝npm镜像
 
-3.vue_college_study以通过npm安装了 vue-loader vue-template-compiler (开发环境)  
+3.vue_college_study已通过npm安装了 vue-loader vue-template-compiler (开发环境)  
 
 4.vue_college_study项目已安装element组件
 
@@ -25,5 +25,8 @@
 **最新进度：2020.11.14_**  
 
 4.vue_college_study项目 css布局完成  兼容了手机端  
+
 5.vue_college_study项目 底部 新增返回到顶部功能 (抄的)
+
+6.vue_college_study项目 底部 更新了一些东西  **问题：** 本地html文件 引入不能跳转  天院logo没解决
 

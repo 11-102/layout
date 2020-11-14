@@ -4,7 +4,6 @@
   <div class="box">
       <div class="header">
         <!-- <el-button type="primary" icon="el-icon-menu" @click="toMore" circle></el-button> -->
-             <!-- <img src="../public/Gzlg.jpg">  -->
 
         <router-link to="/home" class="tabs_2">首页</router-link>
         <router-link to="/find" class="tabs_3">发现</router-link>
@@ -32,7 +31,28 @@
                 <div class="right"></div>
       </div>
       <div class="footer">
-        <div class="fooA">左边</div>
+        <div class="fooA">
+          <div class="fooA1">
+              <div class="fooA1_1">
+                <p>tel:15626273440<br>鸿亮开发<br>
+                   QQ:1007807393@qq.com</p>
+              </div>
+              <div class="fooA1_2">
+                  <p>Copyright©广州理工学院<br>
+                   地址：广州市白云区太和兴太三路638号　邮编：510540</p>
+              </div>
+          </div>
+          <div class="fooA2">
+              <div class="fooA2_1">
+                <p>招生咨询电话:020-87478354 87478449&nbsp;&nbsp;传真:020-87478354<br>
+                   粤ICP备13049318号</p>
+              </div>
+              <div class="fooA2_2">
+                <p><a href="../public/call.html">联系我们</a> | <a href="http://www.thxy.cn">学校官网</a></p>
+                <p>测试一下</p>
+              </div>
+          </div>
+        </div>
         <div class="fooB" @click="backtop"><i class="el-icon-caret-top">返回顶部</i></div>
       </div>
 </div>
@@ -41,8 +61,8 @@
 <script>  
 export default {
   name: 'app',
-  mounted() {
-       window.addEventListener("scroll",this.showbtn,true);   // 点击按钮后
+  mounted() {    // 点击返回顶部 按钮后  1
+       window.addEventListener("scroll",this.showbtn,true);   
     },
   methods: {
   toRegist() {
@@ -54,12 +74,12 @@ export default {
         * 3. 用当前距离加上计算出的距离，然后赋值给当前距离，就可以达到向上移动的效果
         * 4. 最后记得在移动到顶部时，清除定时器
       */
-   // 显示回到顶部按钮
+   // 显示回到顶部按钮       2
   showbtn(){
           let that = this;
           let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
           that.scrollTop = scrollTop
-  },   
+  },   // 回到顶部按钮的方法  3
   backtop(){
           var timer = setInterval(function(){
             let osTop = document.documentElement.scrollTop || document.body.scrollTop;
