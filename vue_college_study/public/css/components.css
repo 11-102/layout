@@ -1,3 +1,4 @@
+
 /* =======  发现组件 
                         ========= */
 .find_vue{
@@ -14,22 +15,67 @@
 }
 /* =======  登录组件  
                         ========= */
-.login_vue{
+.login_box{
     padding: 0;
     margin-top: 5px;
-    background-color: #ff66ff;
+    width: 100%;
+    height: 480px; 
+    display: flex;
+    background-color:  #ff66ff;
 }
-.login_vue img{
-    width: 150px;
-    height: 150px;
-}
+    .login_left{
+        flex: 2;
+        background-color: wheat;
+    }
+    .login_center{
+        flex: 6;
+        background-color: yellow;
+        display: flex;
+    }
+        .login_center .login_logo{
+            flex: 4;
+            background-color: rebeccapurple;
+        }
+        .login_center .login_vue{
+            flex: 6;
+            background-color: yellow;
+        }    
+    .login_right{
+        flex: 2;
+        background-color: wheat;
+    }
 /* =======  注册组件  
                         ========= */
-.register_vue{
+.register_box{
     padding: 0;
     margin-top: 5px;
-    width: 550px;
-    height: 250px;
+    width: 100%;
+    height: 480px;
+    display: flex;
     background-color:  #ff66ff;
-
+}
+    .register_left{
+        flex: 2;
+        background-color: wheat;
+    }
+    .register_center{
+        flex: 6;
+        background-color: yellow;
+        display: flex;
+    }
+        .register_center .register_logo{
+            flex: 4;
+            background-color: red;
+        }
+        .register_center .register_vue{
+            flex: 6;
+        }
+    .register_right{
+        flex: 2;
+        background-color: rebeccapurple;
+    }
+/* ====  登录和注册的输入框变大  
+                              ==== */
+input.el-input__inner {
+    height: 30px;
 }

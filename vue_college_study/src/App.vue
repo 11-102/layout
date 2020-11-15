@@ -34,12 +34,12 @@
         <div class="fooA">
           <div class="fooA1">
               <div class="fooA1_1">
-                <p>tel:15626273440<br>鸿亮开发<br>
-                   QQ:1007807393@qq.com</p>
+                  <p>Copyright©广州理工学院<br>
+                  </p>
               </div>
               <div class="fooA1_2">
-                  <p>Copyright©广州理工学院<br>
-                   地址：广州市白云区太和兴太三路638号　邮编：510540</p>
+                  <p>地址：广州市白云区太和兴太三路638号　邮编:510540<br>
+                  </p>
               </div>
           </div>
           <div class="fooA2">
@@ -48,7 +48,7 @@
                    粤ICP备13049318号</p>
               </div>
               <div class="fooA2_2">
-                <p><a href="../public/call.html">联系我们</a> | <a href="http://www.thxy.cn">学校官网</a></p>
+                <p>联系我们&nbsp;&nbsp; | &nbsp;&nbsp;<a href="http://www.thxy.cn">学校官网</a></p>
                 <p>测试一下</p>
               </div>
           </div>

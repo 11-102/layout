@@ -110,18 +110,14 @@ button.el-button.tabs_6.el-button--primary {   /*  注册加入按钮 */
     text-align: center;
     font-weight: 600;
 }
-    .fooA .fooA1 img{
-        width: 100%;
-        height: 100%;
-    }
     .fooA .fooA1 .fooA1_1{
-        flex: 5;
+        flex: 6;
         text-align: center;
         color:royalblue;
     }
     .fooA .fooA1 .fooA1_2{
-        flex: 5;
-        color:rebeccapurple;
+        flex: 4;
+        color:red;
     }
 /* *****  fooA2  
                 ***** */
@@ -138,7 +134,7 @@ button.el-button.tabs_6.el-button--primary {   /*  注册加入按钮 */
     .fooA .fooA2 .fooA2_2{
         flex: 5;
         text-align: center;
-        background-color:rebeccapurple;
+        background-color:#9900ff;
     }
     .fooA2_2 a{
         text-decoration: none; 

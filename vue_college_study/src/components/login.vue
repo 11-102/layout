@@ -1,5 +1,5 @@
 <template>
-<div class="login_vue">
+<!-- <div class="login_vue">
       <img src="../../public/Gzlg.jpg">
   <div>
          <h3> Gz|理工 </h3>
@@ -40,52 +40,54 @@
           <input class="uk-input" type="password" placeholder="********">
       </div>
 
-      <div class="">
-          <div class="uk-width-expand@s">
-            <p>没有账号? <el-button type="primary" @click="toRegist">注册一下</el-button></p>
-          </div>
-          <div class="uk-width-auto@s">
-            <button type="submit" class="button primary">开启社交吧</button>
-          </div>
-      </div>
   </div>     
+</div> -->
+<div class="login_box">
+  <div class="login_left"></div>
+  <div class="login_center">
+    <div class="login_logo"><img src="../../public/logo.png"></div>
+    <div class="login_vue">
+        <!-- <div><img src="../../public/logo.png"></div> -->
+        <el-form label-width="100px" label-height="70px">
+              <el-form-item label="你的邮箱地址">
+                  <el-input v-model="form.email" placeholder="name@example.com"></el-input>    
+              </el-form-item>
+              <el-form-item label="密码">
+                  <el-input v-model="form.password" type="password" placeholder="请输入密码"></el-input>    
+              </el-form-item>
+              <el-form-item label="确认密码">
+                  <el-input v-model="form.password" type="password" placeholder="请确认您的密码"></el-input>    
+              </el-form-item>
+              <el-form-item>
+                <p>
+                  <el-button @click="toRegist">没有账号?&nbsp;注册一下</el-button>
+                  <el-button type="primary" @click="onSubmit">开启社交吧</el-button>
+                </p> 
+              </el-form-item>
+        </el-form>
+    </div>
+  </div>
+  <div class="login_right"></div>
 </div>
-    <!-- <el-form label-width="100px" class="login_vue">
-          <el-form-item label="你的邮箱地址">
-              <el-input v-model="form.email" placeholder="name@example.com"></el-input>    
-          </el-form-item>
-          <el-form-item label="密码">
-              <el-input v-model="form.password" placeholder="请输入密码"></el-input>    
-          </el-form-item>
-          <el-form-item label="确认密码">
-              <el-input v-model="form.password"  placeholder="请确认您的密码"></el-input>    
-          </el-form-item>
-          <el-form-item>
-              <el-button type="primary" @click="onSubmit">开启社交吧</el-button>
-          </el-form-item>
-    </el-form> -->
 </template>
 
 <script>
 export default {
-  name:'login',
-  // data() {
-  //     return {
-  //       form: {
-  //         email: '',
-  //         password: '',
-  //       }
-  //     }
-  //   },
-  //   methods: {
-  //     onSubmit() {
-  //       console.log(this.$data.form);
-  //     }
-  //   }
-   methods: {
-  toRegist() {
-      this.$router.push('/regist').catch(err => err)     //    catch  定位到当前导航不报错 
-    },
-   }
+  data() {
+      return {
+        form: {
+          email: '',
+          password: '',
+        }
+      }
+    },
+    methods: {
+      onSubmit() {
+        console.log(this.$data.form);
+      },
+      toRegist() {
+        this.$router.push('/regist') 
+      },
+    },
 }
 </script>

@@ -22,7 +22,7 @@
 
 3.vue_college_study项目已安装Ajax封装组件axios
 
-**最新进度：2020.11.15_16:38**  
+**最新进度：2020.11.15_20:56**  
 
 4.vue_college_study项目 css布局完成  兼容了手机端  
 
@@ -31,5 +31,6 @@
 6.vue_college_study项目 底部 更新了一些东西 
 
 7.vue_college_study项目 安装style-loader url-loader  新增webpack.config.js  解决了文件太大 无法加载问题
-**====== 问题：=======**  天院logo没解决
+
+**====== 登录注册布局正在进行 =======**  
 
