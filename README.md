@@ -22,11 +22,14 @@
 
 3.vue_college_study项目已安装Ajax封装组件axios
 
-**最新进度：2020.11.14_**  
+**最新进度：2020.11.15_16:38**  
 
 4.vue_college_study项目 css布局完成  兼容了手机端  
 
 5.vue_college_study项目 底部 新增返回到顶部功能 (抄的)
 
-6.vue_college_study项目 底部 更新了一些东西  **问题：** 本地html文件 引入不能跳转  天院logo没解决
+6.vue_college_study项目 底部 更新了一些东西 
+
+7.vue_college_study项目 安装style-loader url-loader  新增webpack.config.js  解决了文件太大 无法加载问题
+**====== 问题：=======**  天院logo没解决
 

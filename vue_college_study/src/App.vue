@@ -64,10 +64,10 @@ export default {
   mounted() {    // 点击返回顶部 按钮后  1
        window.addEventListener("scroll",this.showbtn,true);   
     },
-  methods: {
-  toRegist() {
-      this.$router.push('/regist').catch(err => err)     //    catch  定位到当前导航不报错 
-    },/**
+  methods: {
+  toRegist() {
+      this.$router.push('/regist').catch(err => err)     //    catch  定位到当前导航不报错 
+    },/**
         * 回到顶部功能实现过程：
         * 1. 获取页面当前距离顶部的滚动距离（虽然IE不常用了，但还是需要考虑一下兼容性的）
         * 2. 计算出每次向上移动的距离，用负的滚动距离除以5，因为滚动的距离是一个正数，想向上移动就是做一个减法
@@ -94,4 +94,3 @@ export default {
   }
   }
 </script>
-

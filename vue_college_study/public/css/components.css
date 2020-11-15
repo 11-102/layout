@@ -17,9 +17,11 @@
 .login_vue{
     padding: 0;
     margin-top: 5px;
-    width: 550px;
-    height: 250px;
     background-color: #ff66ff;
+}
+.login_vue img{
+    width: 150px;
+    height: 150px;
 }
 /* =======  注册组件  
                         ========= */
